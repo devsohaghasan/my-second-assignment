@@ -2,3 +2,67 @@ body{
     font-family: 'Open Sans', sans-serif;
 font-family: 'Oswald', sans-serif;
 }
+nav h2{
+    font-size: 40px;
+}
+.added-logo{
+    display: flex;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    list-style: none;
+    margin-right: 30px;
+    color:rgb(39, 38, 38) ;
+    font-size: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+span{
+    color: blue;
+}
+
+/*button*/
+.first-button{
+    border-radius: 5px;
+    background-color: rgb(249, 248, 248);
+    padding: 10px 30px;
+    color: rgb(29, 29, 30);
+    font-size: .7rem;
+    cursor: pointer;
+    border: 0;
+    margin-right: 10px;
+}
+.second-button{
+    border-radius: 5px;
+    background-color: rgb(247, 71, 40);
+    padding: 10px 30px;
+    color: rgb(237, 237, 245);
+    font-size: .7rem;
+    cursor: pointer;
+    border: 0;
+    margin-right: 10px;
+}
+
+/*baner-section*/
+.banner-titel{
+    font-size: 53px;
+    text-align: center;
+    color: aliceblue;
+}
+.bennar-text{
+    color: aliceblue;
+}
+.banner{
+    background-image: url(./Images/Group\ 13\ \(1\)\ \(1\).png); text-align: center;
+    background-repeat: no-repeat;
+    width: 1100px;
+    height: 600px;
+    padding-top: 50px;
+    padding-right: 100px;
+}
+/*header-end*/
+
