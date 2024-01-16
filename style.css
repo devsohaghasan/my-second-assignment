@@ -7,7 +7,6 @@ nav h2{
 }
 .added-logo{
     display: flex;
-    text-align: center;
 }
 nav a{
     text-decoration: none;
@@ -64,5 +63,110 @@ span{
     padding-top: 50px;
     padding-right: 100px;
 }
+@media screen and (max-width: 576px){
+
+}
 /*header-end*/
+
+/*main-section-1*/
+.main-first-titel{
+    font-size: 50px;
+}
+.main-img-one{
+    margin-left: 40px;
+}
+.main-first{
+    display: flex;
+    margin-left: 20px;    
+}
+
+/*main-section-2*/
+.main-second-contain-text{
+    font-size: 50px;
+}
+.img-one-two{
+    display: flex;
+    gap: 10px;
+}
+.main-second-contain-img{
+    display: grid;
+    grid-template-columns:;
+    gap: .5rem;
+}
+/*main-section-3*/
+.main-third-contain-text{
+    font-size: 50px;
+}
+.box-one{
+    background-color: rgb(246, 199, 166);
+    height: 200px;
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.box-two{
+    background-color: rgb(246, 199, 166);
+    height: 200px;
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px; 
+    margin-left: 20px; 
+}
+.box-one-two{
+    display: flex;
+    margin: 10px;
+}
+.box-three{
+    background-color: rgb(246, 199, 166);
+    height: 200px;
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+}
+/*main-section-4*/
+.main-foutth-contain-name{
+    font-size: 50px;
+
+}
+.main-fourth-contain{
+    height: 500px;
+    width: 380px;
+    background-color:wheat ;
+    text-align: center;
+    border-radius: 10px;
+    border: solid rgb(247, 71, 40);
+}
+.input-one{
+    margin-bottom: 22px;
+    width: 230px;
+    height: 50px;
+    border-radius:10px;
+    position: relative;
+    color: black;
+    font-family: Merriweather;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.btn-primary{
+    margin-bottom: 22px;
+    width: 230px;
+    height: 50px;
+    background-color: rgb(250, 89, 2);
+    color: aliceblue;
+    border-radius:10px;
+    font-size: 15px;
+    font-weight: 600px;
+    margin-top: 20px;
+}
+.main-fourth-box{
+    display: flex;
+    margin-top: 40px;
+    gap: 50px;
+}
+/*main-END*/
+
 
