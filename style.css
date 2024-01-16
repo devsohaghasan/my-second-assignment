@@ -63,9 +63,6 @@ span{
     padding-top: 50px;
     padding-right: 100px;
 }
-@media screen and (max-width: 576px){
-
-}
 /*header-end*/
 
 /*main-section-1*/
@@ -77,10 +74,22 @@ span{
 }
 .main-first{
     display: flex;
-    margin-left: 20px;    
+    margin-left: 20px;
+    width: 1100px;
+    height: 600px;
+    padding: 50px;
+    background-color: rgb(160, 183, 183); 
+    text-align: center;  
 }
-
 /*main-section-2*/
+.main-second{
+    margin: 20px;
+    width: 1100px;
+    height: 1100px;
+    padding: 60px;
+    background-color: rgb(160, 183, 183); 
+    text-align: center;
+}
 .main-second-contain-text{
     font-size: 50px;
 }
@@ -94,6 +103,14 @@ span{
     gap: .5rem;
 }
 /*main-section-3*/
+.main-third{
+    margin: 20px;
+    width: 1100px;
+    height: 680px;
+    padding: 50px;
+    background-color: rgb(160, 183, 183); 
+    text-align: center; 
+}
 .main-third-contain-text{
     font-size: 50px;
 }
@@ -122,8 +139,17 @@ span{
     width: 350px;
     padding: 20px;
     border-radius: 10px;
+    text-align: center;
 }
 /*main-section-4*/
+.main-fourth{
+    margin: 20px;
+    width: 1100px;
+    height: 520px;
+    padding: 50px;
+    background-color: rgb(160, 183, 183); 
+    text-align: center; 
+}
 .main-foutth-contain-name{
     font-size: 50px;
 
@@ -167,6 +193,94 @@ span{
     margin-top: 40px;
     gap: 50px;
 }
+.setup-box{
+    display: flex;
+    gap: 40px;
+}
 /*main-END*/
+
+.footer{
+    margin: 20px;
+    width: 1100px;
+    height: 220px;
+    padding: 50px;
+    background-color: rgb(160, 183, 183); 
+    text-align: center;
+}
+/*media acury for mobile-devaise*/
+@media screen and (max-width:600px) {
+    /*header*/
+    header{
+        padding: 50px; 
+        flex-direction: column;   
+    }
+    .added-logo{
+        flex-direction: column;
+    }
+    /*header End*/
+
+    /*first  section*/
+    .main-first{
+        flex-direction: column;
+        height: 1100px;
+    }
+
+    /*second section*/
+    .main-second-contain-img{
+        flex-direction: column;
+    }
+    .img-one-two{
+        flex-direction: column;    
+        grid-template-columns:2,1fr;
+    }
+    .main-second{
+        height: 5200px;
+    }
+
+    /*third section*/
+    .main-third{
+        flex-direction: column;    
+        grid-template-columns:2,1fr;
+        height: 1100px;
+        text-align: center;
+    }
+    .box-one-two{
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    /*fourth section*/
+    .main-fourth{
+        height: 1200px;
+        text-align: center;    
+    }
+    .setup-box{
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+    }
+    /*media acury for leptop/desktop*/
+
+    @media screen and (min-width:600px) and (max-width:992px){
+        header{
+            text-align: center;
+            margin: 100px;
+            display: 100%;
+        }
+        main{
+            text-align: center;
+            margin: 100px; 
+        }
+        .footer{
+            text-align: center;
+            margin: 100px;
+            background-color: rgb(238, 136, 136);
+        }
+    }
+    
+   
+
 
 
